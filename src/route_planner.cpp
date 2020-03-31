@@ -72,7 +72,7 @@ RouteModel::Node *RoutePlanner::NextNode() {
     });
 
     RouteModel::Node* lowestf_score = open_list.back();
-    open_list.back();
+    open_list.pop_back();
     return lowestf_score;
 
 
